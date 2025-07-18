@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import logo from '../assets/logo.svg'
+import logo from '../assets/logo-1.png'
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-      <div class="flex justify-between items-center px-6 py-2 mx-auto mt-4 max-w-7xl rounded-full backdrop-blur-md bg-white/10 shadow-md border border-white/20 text-white">
+      <div class="flex justify-between items-center px-6 py-2 mx-auto mt-4 max-w-7xl rounded-full backdrop-blur-md bg-white/10 shadow-green-500/50 border border-green-500/20 focus:outline-none text-white">
   <div class="text-lg font-semibold">
-    <img src={logo} alt="Ridhi Agarwal" class="h-14" />
+    <img src={logo} alt="Ridhi Agarwal" class="h-12" />
   </div>
   {/* Hamburger icon for mobile */}
       <button
